@@ -1,3 +1,5 @@
 node_modules
 package-lock.json
-public
+public/css
+public/img
+public/bundle.js
