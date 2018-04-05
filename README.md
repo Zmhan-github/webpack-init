@@ -20,3 +20,20 @@ ES6 -> ES5
 
 SASS -> CSS
 
+IMG -> public/img
+
+Структура public сборки:
+
+```
+.
+├── build.js
+├── favicon.ico
+├── img
+│   └── logo.svg
+├── css
+│   └── styles.css
+└── index.html
+
+1 directory, 4 files
+```
+
