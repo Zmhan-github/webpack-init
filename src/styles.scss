@@ -1,0 +1,29 @@
+//COLORS
+$color_primary: rgb(100, 82, 82);
+
+//FONT-FAMILY
+$font_primary: 'Courier New', Courier, monospace;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    height: 50vh;
+
+    & h1 {
+        font-family: $font_primary;
+        font-size: 32px;
+        font-weight: 400;
+        color: $color_primary;
+    }
+}
