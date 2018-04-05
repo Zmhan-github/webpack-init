@@ -1,5 +1,5 @@
 //COLORS
-$color_primary: rgb(100, 82, 82);
+$color_primary: rgb(121, 176, 192);
 
 //FONT-FAMILY
 $font_primary: 'Courier New', Courier, monospace;
@@ -19,6 +19,12 @@ $font_primary: 'Courier New', Courier, monospace;
 
     flex-direction: column;
     height: 50vh;
+
+
+    & img {
+        width: 10rem;
+        height: 10rem;
+    }
 
     & h1 {
         font-family: $font_primary;

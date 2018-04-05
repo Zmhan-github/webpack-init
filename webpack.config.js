@@ -23,9 +23,20 @@ module.exports = {
                 }               
             },
 
-            {//SCSS->CSS
+            {//SCSS->CSS                
                 test: /\.scss$/,
                 use:  ['style-loader', 'css-loader', 'sass-loader']            
+            },
+
+            {//IMG -> public/img
+                test: /\.(jpe?g|png|gif|svg)$/,
+                use: {
+                    loader: 'url-loader',
+                    options: {
+                        limit: 40,
+                        name: 'img/[name].[ext]'
+                    }
+                }            
             }
 
         ]
