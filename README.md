@@ -1,0 +1,2 @@
+# webpack-init
+Cтартовый webpack
