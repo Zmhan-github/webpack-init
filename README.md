@@ -26,7 +26,7 @@ IMG -> public/img
 
 ```
 .
-├── build.js
+├── bundle.js
 ├── favicon.ico
 ├── img
 │   └── logo.svg
